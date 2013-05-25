@@ -44,3 +44,7 @@ input{
 button{     
     border: 1px solid; 
 }
+
+ .botones{
+  text-align: center;
+  }
