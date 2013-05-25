@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+ 
+<html>
+<head>
+<title>Tarea ISW</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="estilo.css" type="text/css"/>
+</head>
+ 
+<body>  
+    <div class="contenedor">
+     <div class="formulario">
+
+       <h1>Login</h1>
+ 
+       <form method="post">
+           <table>
+               <tr> <td>  <label for ="rut"> Rut: </label> </td> <td> <input type = "text"  id="rut" name="rut" placeholder = "Ingresar rut" autofocus required autocomplete="off"/> </td> </tr>
+               <tr> <td>  <label for ="password"> Password: </label> </td> <td> <input type = "password" id = "password" name="password" required/>  </td> </tr>
+           </table>
+    <p>  <button type="submit" formnovalidate formaction="formulario.php">Registro</button> 
+      <button type="submit" formaction="index.php">Enviar</button> 
+      <input type="reset" value="Limpiar"/> </p>
+             
+       </form>   
+    </div>
+    </div>
+</body>
+</html>
