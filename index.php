@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head> 
-<title> Página </title>
+<title> Página <?php echo date('y-m-d'); ?> </title> 
 <meta charset="utf-8" />
 <link rel="stylesheet" href="estilo.css" type="text/css"/>
 </head>
