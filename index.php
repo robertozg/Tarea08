@@ -16,7 +16,6 @@ $password = $_POST["password"];
 $password = strtoupper($password);
 $password = hash("SHA256", $password);
 
-
 $parametros = array();
 $parametros["rut"] = $rut;
 $parametros["password"] = $password;
