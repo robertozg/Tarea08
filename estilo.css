@@ -11,14 +11,9 @@
     border: 1px solid;
 }
 
-p{
-  color:blue;
-  font-size: 20px;
-  font-family:"Times New Roman";
-  font-style: italic;
+.botones{
   text-align: center;
-  
-}
+  }
 
 label{
   color:blue;   
@@ -45,6 +40,4 @@ button{
     border: 1px solid; 
 }
 
- .botones{
-  text-align: center;
-  }
+ 
