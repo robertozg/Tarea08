@@ -23,7 +23,6 @@ $parametros["password"] = $password;
 $objClienteSOAP = new soapclient("http://informatica.utem.cl:8011/dirdoc-auth/ws/auth?wsdl");
 $objRespuesta = $objClienteSOAP->autenticar($parametros);
 
-//var_dump($objRespuesta);
 
 $codigo =  $objRespuesta->return->codigo;
 $descripcion =  $objRespuesta->return->descripcion;
